@@ -7,13 +7,15 @@
  */
 
 /**
- * Регистрируем тип записи
+ * Регистрируем кастомный тип поста
+ *
+ * @link Список пораматров и описание https://wp-kama.ru/function/register_post_type
  */
 //add_action('init', 'registerFeedbackPostType');
 //
 //function registerFeedbackPostType()
 //{
-//    $labels = array(
+//    $labels = [
 //        'name' => 'Обращения', // Основное название типа записи
 //        'singular_name' => 'Обращение', // отдельное название записи типа Book
 //        'add_new' => 'Добавить обращение',
@@ -27,8 +29,8 @@
 //        'parent_item_colon' => '',
 //        'menu_name' => 'Обращения',
 //
-//    );
-//    $args = array(
+//    ];
+//    $args = [
 //        'labels' => $labels,
 //        'menu_icon' => 'dashicons-megaphone',
 //        'show_ui' => true,
@@ -42,17 +44,17 @@
 //        'hierarchical' => false,
 //        'menu_position' => 25,
 //        'supports' => array('title'),
-//    );
+//    ];
 //    register_post_type('feedback', $args);
 //}
 
 /**
- * Регистрируем таксономию
+ * Регистрируем кастомную таксономию
  *
- * @link http://codex.wordpress.org/Function_Reference/register_taxonomy
+ * @link Список пораматров и описание https://wp-kama.ru/function/register_taxonomy
  */
 
-//$brand_labels = array(
+//$brand_labels = [
 //    'name' => __('Бренды', 'velerius'),
 //    'singular_name' => __('Бренд', 'velerius'),
 //    'search_items' => __('Поиск брендов', 'velerius'),
@@ -64,16 +66,16 @@
 //    'add_new_item' => __('Добавить новый бренд', 'velerius'),
 //    'new_item_name' => __('Новое название бренда', 'velerius'),
 //    'menu_name' => __('Бренды', 'velerius'),
-//);
+//];
 //
-//$brand_args = array(
+//$brand_args = [
 //    'hierarchical' => true,
 //    'labels' => $brand_labels,
 //    'show_ui' => true,
 //    'show_admin_column' => true,
 //    'query_var' => true,
 //    'rewrite' => array('slug' => 'brand'),
-//);
+//];
 //
 //register_taxonomy('brand', array('product'), $brand_args);
 

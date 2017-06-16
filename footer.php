@@ -8,10 +8,8 @@
  *
  * @package artcraft
  */
-
 ?>
 
 <?php wp_footer(); ?>
-
 </body>
 </html>

@@ -2,21 +2,24 @@
 	die( 'Forbidden' );
 }
 
-/*
- * Кастомные поля для таксономии
+/**
+ * Кастомные поля (опции) для таксономии
+ * @link Список всех возможных опицй http://manual.unyson.io/en/latest/options/built-in/introduction.html
  */
 
-//$options = array(
-//    'box' => array(
-//        'title'   => __( 'Box name', '{domain}' ),
-//	    'type' => 'box',
-//        'options' => array(
-//            'logo' => array(
-//                'type'        => 'upload',
-//                'label'       => __( 'Image', '{domain}' ),
-//                'desc'        => __('small image', '{domain}'),
-//                'images_only' => true,
-//            ),
-//        ),
-//    ),
-//);
+//$options = [
+//    'box' => [
+//        'type' => 'box',
+//        'title' => __('Box name', '{domain}'),
+//        'options' => [
+//            'email' => [
+//                'type'  => 'text',
+//                'label' => __('Почта', '{domain}'),
+//                'fw-storage' => array(
+//                    'type' => 'post-meta',
+//                    'post-meta' => 'fw_option:email',
+//                ]
+//            ],
+//        ],
+//    ],
+//];

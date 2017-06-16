@@ -3,31 +3,32 @@
 }
 /*
  * Настройки сайта (телефоны, соц-сети и пр.)
+ * Список всех возможных опицй http://manual.unyson.io/en/latest/options/built-in/introduction.html
  */
-//$options = array(
-//	'panel_contacts' => array(
+//$options = [
+//	'panel_contacts' => [
 //		'title'   => __( 'Контакты', '{domain}' ),
-//		'options' => array(
-//			'phone' => array(
+//		'options' => [
+//			'phone' => [
 //				'type'  => 'text',
 //				'label' => __( 'Телефон', '{domain}' ),
 //				'value' => '999 999 999',
-//			),
-//		),
-//	),
-//	'panel_social' => array(
+//			],
+//		],
+//	],
+//	'panel_social' => [
 //		'title'   => __( 'Социальные сети', '{domain}' ),
-//		'options' => array(
-//			'twitter' => array(
+//		'options' => [
+//			'twitter' => [
 //				'type'  => 'text',
 //				'label' => __( 'Twitter', '{domain}' ),
 //				'value' => 'http://twitter.com/',
-//			),
-//			'facebook' => array(
+//			],
+//			'facebook' => [
 //				'type'  => 'text',
 //				'label' => __( 'Facebook', '{domain}' ),
 //				'value' => 'http://facebook.com/',
-//			),
-//		),
-//	),
-//);
+//			],
+//		],
+//	],
+//];

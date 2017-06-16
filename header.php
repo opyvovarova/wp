@@ -9,6 +9,22 @@
  * @package artcraft
  */
 
+/**
+ * Вывод настроек темы
+ *
+ * @link http://manual.unyson.io/en/latest/helpers/php.html#database
+ */
+// fw_get_db_customizer_option($option_id, $default_value = null);
+
+/**
+ * Вывод меню
+ *
+ * @link https://wp-kama.ru/function/wp_nav_menu
+ */
+// wp_nav_menu([
+//  'theme_location' => 'primary
+//]);
+
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -20,3 +36,4 @@
 </head>
 
 <body>
+

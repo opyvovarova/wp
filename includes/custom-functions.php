@@ -1,11 +1,27 @@
 <?php
 // Бекенд
 
-// Пример ajax
-//add_action( 'wp_ajax_action-name', 'functionName' );
-//add_action( 'wp_ajax_nopriv_action-name', 'functionName' );
+/**
+ * Дебаг переменной
+ */
+// fw_print($value);
+
+
+/**
+ * Рендер шаблона
+ */
+// fw_render_view($file_path, $view_variables = [])
+
+/**
+ * AJAX
+ *
+ * @link
+ */
+//Регестрируем экшны для обработки аякса
+//add_action( 'wp_ajax_НАЗВАНИЕ_ЭКШЕНА', 'НАЗВАНИЕ_МЕТОДА' );
+//add_action( 'wp_ajax_nopriv_НАЗВАНИЕ_ЭКШЕНА', 'НАЗВАНИЕ_МЕТОДА' );
 //
-//function functionName() {
+//function НАЗВАНИЕ_МЕТОДА() {
 //    if ( $_POST ) {
 //        // обрабатываем запрос
 //
